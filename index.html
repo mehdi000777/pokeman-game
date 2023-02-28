@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="blackScreen"></div>
+        <canvas id="canvas1"></canvas>
+        <div id="userInterface">
+            <div class="bar-container">
+                <div class="dialogue">fsdgsdfa</div>
+                <div id="attacks" class="bar-item">
+                </div>
+                <div id="attackType" class="bar-item">
+                    <p>Attack type</p>
+                </div>
+            </div>
+            <div class="health-container">
+                <div class="card-container">
+                    <div class="health-card">
+                        <h1>Draggle</h1>
+                        <div class="health-bar">
+                            <div id="draggleHealth" class="health-bar-top"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="health-card">
+                        <h1>Emby</h1>
+                        <div class="health-bar">
+                            <div id="embyHealth" class="health-bar-top"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <img id="background" src="./assets/Tiled/Pellet Town.png" alt="f">
+    <img id="battleBackground" src="./assets/Images/battleBackground.png" alt="f">
+    <img id="foreground" src="./assets/Images/foreground.png" alt="f">
+    <img id="playerDown" src="./assets/Images/playerDown.png" alt="f">
+    <img id="playerUp" src="./assets/Images/playerUp.png" alt="f">
+    <img id="playerRight" src="./assets/Images/playerRight.png" alt="f">
+    <img id="playerLeft" src="./assets/Images/playerLeft.png" alt="f">
+    <img id="draggle" src="./assets/Images/draggleSprite.png" alt="f">
+    <img id="emby" src="./assets/Images/embySprite.png" alt="f">
+    <img id="fireball" src="./assets/Images/fireball.png" alt="f">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+        integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
